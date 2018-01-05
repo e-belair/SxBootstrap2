@@ -1,5 +1,5 @@
 {
-    "name" : "spoonx/sxbootstrap",
+    "name" : "manuscle/sxbootstrap2",
     "description" : "A twitter bootstrap module for ZF2 (zend framework 2) based on rwoverdijk/assetmanager",
     "license" : "BSD-2-Clause",
     "keywords" : [
@@ -9,7 +9,7 @@
         "zf2",
         "zend framework"
     ],
-    "homepage" : "https://github.com/SpoonX/SxBootstrap",
+    "homepage" : "https://github.com/manuscle/SxBootstrap2",
     "require" : {
         "php" : ">=5.3.3",
         "spoonx/sxcore" : "1.*"
