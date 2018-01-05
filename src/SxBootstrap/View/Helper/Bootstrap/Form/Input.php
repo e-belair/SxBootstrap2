@@ -5,6 +5,7 @@ namespace SxBootstrap\View\Helper\Bootstrap\Form;
 use SxBootstrap\View\Helper\Bootstrap\AbstractElementHelper;
 use SxCore\Html\HtmlElement;
 use Zend\Form\ElementInterface;
+use Zend\View\Helper\EscapeHtmlAttr;
 
 class Input extends AbstractElementHelper
 {
@@ -44,7 +45,10 @@ class Input extends AbstractElementHelper
             $this->type(strtolower($type));
         }
 
-        $this->value($element->getValue());
+        /** @var EscapeHtmlAttr $escaper */
+        $escaper = $this->getView()->plugin('escapehtmlattr');
+
+        $this->value($escaper($element->getValue()));
 
         return $this;
     }
