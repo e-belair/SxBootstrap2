@@ -1,4 +1,9 @@
-# SxBootstrap
+This is a copy of SxBootstrap from https://github.com/SpoonX/SxBootstrap
+
+## Changes made on this repos:
+No change at the moment
+
+# SxBootstrap2
 
 This version has revisited the Form implementation, and is now easier to use than ever!
 
