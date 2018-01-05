@@ -1,6 +1,6 @@
 {
     "name" : "manuscle/sxbootstrap2",
-    "description" : "A twitter bootstrap module for ZF2 (zend framework 2) based on rwoverdijk/assetmanager",
+    "description" : "A twitter bootstrap module for ZF2 & TWBS 2.3.2 based on spoonx/SxBootstrap",
     "license" : "BSD-2-Clause",
     "keywords" : [
         "twitter",
