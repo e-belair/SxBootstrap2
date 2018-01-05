@@ -15,7 +15,7 @@
         "spoonx/sxcore" : "1.*"
     },
     "require-dev" : {
-        "zendframework/zendframework": "dev-master",
+        "zendframework/zendframework": "2.*",
         "spiffy/spiffy-navigation" : "dev-master",
         "phpunit/phpunit" : "*"
     },
