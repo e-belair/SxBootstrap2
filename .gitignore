@@ -1,0 +1,15 @@
+composer.lock
+*~
+.*.sw?
+.DS_Store
+._*
+.buildpath
+.idea
+.project
+.settings
+.sw?
+.~lock.*
+clover.xml
+nbproject
+php-cs-fixer.phar
+phpunit.xml
